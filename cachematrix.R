@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## we are going to write a pair of functions "makeCacheMatrix" and "cacheSolve" which compute the inverse of
+## a invertible matrix. So below is the explanation how thw functions are formed
 
-## Write a short comment describing this function
+## The function "makeCacheMatrix" returns a special "matrix" object that can 
+## obtain its inverse for the input which is an invertible square matrix
 
 makeCacheMatrix <- function(x = matrix()) {
  m <- NULL
